@@ -1,0 +1,6 @@
+framework module Pods_Public_Transport_Public_TransportUITests {
+  umbrella header "Pods-Public Transport-Public TransportUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

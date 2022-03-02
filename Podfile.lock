@@ -1,0 +1,37 @@
+PODS:
+  - MapboxCommon (21.1.0)
+  - MapboxCoreMaps (10.3.2):
+    - MapboxCommon (~> 21.1)
+  - MapboxMaps (10.3.0):
+    - MapboxCommon (= 21.1.0)
+    - MapboxCoreMaps (= 10.3.2)
+    - MapboxMobileEvents (= 1.0.7)
+    - Turf (~> 2.0)
+  - MapboxMobileEvents (1.0.7)
+  - SnapKit (4.2.0)
+  - Turf (2.2.0)
+
+DEPENDENCIES:
+  - MapboxMaps (= 10.3.0)
+  - SnapKit (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MapboxCommon
+    - MapboxCoreMaps
+    - MapboxMaps
+    - MapboxMobileEvents
+    - SnapKit
+    - Turf
+
+SPEC CHECKSUMS:
+  MapboxCommon: 019dac381fcb3aab115b5d488593261c810253ad
+  MapboxCoreMaps: 418b6e02464c00d7227e778164f6ca67755ae6a1
+  MapboxMaps: fc490ab5b8df6f74a82d35c56bc2ea4d576ad4ee
+  MapboxMobileEvents: f7f3e8daeb4b83688ae62a4172dce79169a97233
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  Turf: 1a6bc2d0142f84610445159565c3c93d62b83897
+
+PODFILE CHECKSUM: 33e4510baf6bd10f40a6c666f69a5428d3dc3fd7
+
+COCOAPODS: 1.11.2
